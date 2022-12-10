@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:weather_app/models/weather_model.dart';
 
+// Using Bloc instead
 class WeatherProvider extends ChangeNotifier {
   WeatherModel? _weatherData;
 
